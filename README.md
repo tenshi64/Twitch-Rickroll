@@ -1,4 +1,4 @@
-# twitch-rickroll
+# Twitch-Rickroll
 Fake twitch.tv. Plays rickroll instead of stream.
 
 ## About
