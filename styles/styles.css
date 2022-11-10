@@ -1,0 +1,802 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #0e0e10;
+    font-family: Helvetica, Arial;
+    overflow: visible;
+}
+
+.banner
+{
+    background-color: rgb(24, 24, 27);
+    height: 3.3854166666666665vw;
+    box-shadow: inset 0px -2.3px 1px -1px rgba(0,0,0,1);
+    vertical-align: middle;
+    position: fixed;
+    min-width: 250%;
+    max-width: 100%;
+}
+
+.logo
+{
+    margin: 0.6510416666666666vw;
+    margin-left: 0.5859375vw;
+    margin-right: 1.5625vw;
+    height: 2.0833333333333335vw;
+    content:url("../images/deafult logo.PNG");
+    vertical-align: middle;
+}
+
+.logo:hover
+{
+    animation: logo 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes logo
+{
+    100%{content:url("../images/hover logo.png");}
+}
+
+.browse
+{
+    color: #efeff1;
+    font-size: 1.1067708333333333vw;
+    text-decoration-thickness: auto;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    transform: scaleY(1.1) scaleX(1.03);
+    margin-right: 1.171875vw;
+}
+
+.browse:hover
+{
+    color: #bf94ff;
+}
+
+.more
+{
+    margin: 0.6510416666666666vw;
+    margin-left: 0.5859375vw;
+    margin-right: 1.5625vw;
+    height: 2.0833333333333335vw;
+    content:url("../images/three dots.PNG");
+    vertical-align: middle;
+}
+
+.more:hover
+{
+    animation: more 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes more
+{
+    100%{content:url("../images/three dots hover.png");}
+}
+
+.recommended-channels
+{
+    overflow-y:hidden;
+    background-color: #1f1f23;
+    float: left;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    margin-top: 3.3854166666666665vw;
+    width: 3.2552083333333335vw;
+    text-align: center;
+}
+
+.recommended-channels:hover
+{
+    overflow-y:scroll;
+    width: 3.6458333333333335vw;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+background: #1f1f23;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+background: rgba(124, 124, 124, 0);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+.recommended-channels::-webkit-scrollbar-track {
+background: #1f1f23;
+}
+
+/* Handle */
+.recommended-channels::-webkit-scrollbar-thumb {
+background: rgb(124, 124, 124);
+border-radius: 10px;
+}
+.recommended-channels::-webkit-scrollbar {
+    width: 6px;
+  }
+
+
+.text-chat::-webkit-scrollbar-track {
+    background: rgb(24, 24, 27);
+}
+    
+    /* Handle */
+.text-chat::-webkit-scrollbar-thumb {
+background: rgb(124, 124, 124);
+border-radius: 10px;
+}
+.text-chat::-webkit-scrollbar {
+    width: 6px;
+    }
+  
+.channels
+{
+    pointer-events:all;
+    margin-left: 0.13020833333333334vw;
+    margin-top: 0.13020833333333334vw;
+    margin-bottom: 0.13020833333333334vw;
+    height: 2.6041666666666665vw;
+    content:url("../images/recommended channels.PNG");
+}
+
+.channels:hover
+{
+    animation: channels 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes channels
+{
+    100%{content:url("../images/recommended channels hover.png");}
+}
+
+.camera
+{
+    margin: 0.3255208333333333vw;
+    height: 1.6276041666666667vw;
+    content:url("../images/recommended\ \(camera\).PNG");
+    pointer-events: none;
+}
+
+.streamers
+{
+    pointer-events:all;
+    margin-top: 0.3255208333333333vw;
+    height: 1.953125vw;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container
+{
+    background-color: #0e0e10;
+    width: 100%;
+    height: 100%;
+    margin-top: 3.3854166666666665vw;
+    position: absolute;
+    z-index: -2;
+    color: white;
+    float: left;
+}
+
+.screen
+{
+    margin-left: 3.2552083333333335vw;
+    width: 73.6328125vw;
+}
+
+.screen:hover
+{
+    cursor: pointer;
+}
+
+.rickroll
+{
+    margin-left: 3.2552083333333335vw;
+    width: 73.6328125vw;
+}
+
+.about
+{
+    z-index: -1;
+    background-color: #0e0e10;
+    color: white;
+    width: 100%;
+    position: relative;
+    height: 39.0625vw;
+}
+
+.BillyEnjoyer
+{
+    margin-left: 4.557291666666667vw;
+    margin-top: 0.9765625vw;
+    border-radius: 50%;
+    border: solid 0.2vw white;
+    height: 4.166666666666667vw;
+    position: absolute;
+}
+
+.BillyEnjoyer:hover
+{
+    cursor: pointer;
+    animation: billy 0.05s linear normal forwards;
+}
+
+@keyframes billy {
+    100%{border: solid 0.3vw white; margin-top: 0.8463541666666666vw; margin-left: 4.427083333333333vw;}
+}
+
+.live
+{
+    margin-left: 5.46875vw;
+    margin-top: 4.557291666666667vw;
+    position: relative;
+    height: 1.4973958333333333vw;
+    pointer-events: none;
+}
+
+.name
+{
+    font-size: 1.171875vw;
+    font-weight: bold;
+}
+
+.name:hover
+{
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-color: rgb(191, 148, 255);
+}
+
+.certificate
+{
+    height: 1.3020833333333333vw;
+    vertical-align: top;
+    pointer-events: none;
+}
+
+.description
+{
+    font-size: 0.9765625vw;
+    font-weight: bold;
+}
+
+.game
+{
+    color: rgb(191, 148, 255);
+    font-size: 0.9765625vw;
+    vertical-align: middle;
+}
+
+.game:hover
+{
+    text-decoration:underline;
+    text-decoration-color: rgb(191, 148, 255);
+    cursor: pointer;
+}
+
+.stream-info
+{
+    vertical-align: middle;
+    line-height: 1.4973958333333333vw;
+    float: right;
+    margin-right: 67.70833333333333vw;
+    margin-top: 0.9765625vw;
+}
+
+.streamer-info
+{
+    float: left;
+}
+
+.stream-settings
+{
+    position: absolute;
+    margin-left: 50vw;
+    vertical-align: middle;
+}
+
+.follow
+{
+    vertical-align: middle;
+    height: 2.2786458333333335vw;
+    content: url("../follow.PNG");
+}
+
+.follow:hover
+{
+    animation: follow 0.05s linear normal forwards;
+    cursor: pointer;
+}
+
+@keyframes follow {
+    100%{     content: url("../follow hover.PNG");}
+}
+
+.subscribe
+{
+    vertical-align: middle;
+    height: 2.4739583333333335vw;
+    content: url("../subscribe.png");
+}
+
+.subscribe:hover
+{
+    animation: subscribe 0.05s linear normal forwards;
+    cursor: pointer;
+}
+
+@keyframes subscribe {
+    100%{     content: url("../subscribe hover.PNG");}
+}
+
+.lang
+{
+    margin-left: 0.390625vw;
+    height: 1.6276041666666667vw;
+    content: url("../english.png");
+    vertical-align: -40%;
+    vertical-align: middle;
+}
+.lang:hover
+{
+    animation: lang 0.05s linear normal forwards;
+    cursor: pointer;
+}
+
+@keyframes lang {
+    100%{ content: url("../english\ hover.png");}
+}
+hr{
+    border: 0;
+    border-top: 1px solid rgb(81, 81, 81);
+    width: 100%;
+}
+
+.users
+{
+    height: 1.3020833333333333vw;
+    margin-left: 3.2552083333333335vw;
+    pointer-events: none;
+    vertical-align: middle;
+}
+
+.counter
+{
+    color: rgb(255, 130, 128);
+    font-size: 0.8463541666666666vw;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.time
+{
+    font-size: 0.8463541666666666vw;
+    color: rgb(239, 239, 241);
+    margin-left: 0.390625vw;
+    vertical-align: middle;
+}
+
+.download
+{
+    vertical-align: middle;
+    height: 2.734375vw;
+    content: url("../download.PNG");
+}
+
+.download:hover
+{
+    animation: download 0.05s linear normal forwards;
+    cursor: pointer;
+}
+
+@keyframes download {
+    100%{ content: url("../download\ hover.png");}
+}
+
+.chat
+{
+    background-color: rgb(24, 24, 27);
+    color: white;
+    margin-left: 77vw;
+    height: 100%;
+    width: 25vw;
+    z-index: 1;
+    position: absolute;
+    position: fixed;
+    border: 0;
+    border-left: 1px solid rgb(81, 81, 81);
+}
+
+.chat-collapse
+{
+    pointer-events:all;
+    margin-top: 0.13020833333333334vw;
+    margin-bottom: 0.13020833333333334vw;
+    height: 2.6041666666666665vw;
+    content:url("../images/recommended channels.PNG");
+    vertical-align: middle;
+}
+
+.chat-collapse:hover
+{
+    animation: collapse 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes collapse
+{
+    100%{content:url("../images/recommended channels hover.png");}
+}
+
+.stream-chat
+{
+    font-size: 0.8463541666666666vw;
+    font-weight: bold;
+    margin-left: 5.5vw;
+}
+
+.community
+{
+    pointer-events:all;
+    margin-left: 5.5vw;
+    margin-top: 0.13020833333333334vw;
+    margin-bottom: 0.13020833333333334vw;
+    height: 2.6041666666666665vw;
+    content:url("../community.png");
+    vertical-align: middle;
+}
+
+.community:hover
+{
+    animation: community 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes community
+{
+    100%{content:url("../community\ hover.png");}
+}
+
+
+.gifts
+{
+    pointer-events:all;
+    height: 5.859375vw;
+    content:url("../gifts\ chat.png");
+    vertical-align: middle;
+}
+
+.gifts:hover
+{
+    animation: gifts 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes gifts
+{
+    100%{content:url("../gifts\ chat\ hover.png");}
+}
+
+.gifts2
+{
+    pointer-events:all;
+    height: 5.859375vw;
+    content:url("../gifts\ chat.png");
+    vertical-align: middle;
+    transform: scaleX(-1);
+}
+
+.gifts2:hover
+{
+    animation: gifts2 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes gifts2
+{
+    100%{content:url("../gifts\ chat\ hover.png");}
+}
+
+.gift-info
+{
+    font-size: 0.8463541666666666vw;
+    color: rgb(191, 148, 255);
+    font-weight: bold;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.text-chat
+{
+    overflow-y: scroll;
+    padding: 1.3020833333333333vw;
+    height: 55%;
+    margin-right: 2.1484375vw;
+    overflow-x: hidden;
+}
+
+.message:hover
+{
+    background: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.nick
+{
+    cursor: pointer;
+    padding: 0.3255208333333333vw;
+}
+
+.nick:hover
+{
+    background: rgb(113, 112, 112);
+    border-radius: 5px;
+}
+
+.chat-button
+{
+    height: 2.9296875vw;
+    content:url("../chat.png");
+}
+
+.chat-button:hover
+{
+    animation: chat-button 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes chat-button
+{
+    100%{content:url("../chat\ hover.png");}
+}
+
+.chat-input
+{
+    height: 3.41796875vw;
+    pointer-events: none;
+    position: absolute;
+    vertical-align: middle;
+}
+
+
+.chat-options
+{
+    height: 2.6041666666666665vw;
+    content:url("../chat-options.png");
+    margin-left: 11.3vw;
+}
+
+.chat-options:hover
+{
+    animation: chat-options 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes chat-options
+{
+    100%{content:url("../chat-options\ hover.png");}
+}
+
+.points
+{
+    height: 2.6041666666666665vw;
+    content:url("../points.png");
+}
+
+.points:hover
+{
+    animation: points 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes points
+{
+    100%{content:url("../points\ hover.png");}
+}
+
+.search
+{
+    height: 2.9296875vw;
+    vertical-align: middle;
+    pointer-events: none;
+    margin-left: 22vw;
+}
+
+.prime
+{
+    height: 2.7994791666666665vw;
+    content:url("../prime\ loot.png");
+    vertical-align: middle;
+    margin-left: 19vw;
+}
+
+.prime:hover
+{
+    animation: prime 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes prime
+{
+    100%{content:url("../prime\ loot\ hover.png");}
+}
+
+.LogIn
+{
+    height: 2.7994791666666665vw;
+    content:url("../log\ in.png");
+    vertical-align: middle;
+}
+
+.LogIn:hover
+{
+    animation: LogIn 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes LogIn
+{
+    100%{content:url("../log\ in\ hover.png");}
+}
+
+
+.SignUp
+{
+    height: 2.6041666666666665vw;
+    content:url("../signup.png");
+    vertical-align: middle;
+}
+
+.SignUp:hover
+{
+    animation: SignUp 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes SignUp
+{
+    100%{content:url("../signup\ hover.png");}
+}
+
+.profile
+{
+    height: 2.9296875vw;
+    content:url("../profile.png");
+    vertical-align: middle;
+}
+
+.profile:hover
+{
+    animation: profile 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes profile
+{
+    100%{content:url("../profile\ hover.png");}
+}
+
+.about-streamer
+{
+    background-color: rgb(24, 24, 27);
+    margin-top: 6.8359375vw;
+    margin-left: 5.208333333333333vw;
+    margin-right: 25.390625vw;
+    padding: 2.9296875vw;
+    height: 9.765625vw;
+}
+
+h3
+{
+    font-size: 1.4973958333333333vw;
+}
+
+.informations
+{
+    margin-top: 3.2552083333333335vw;
+    margin-left: 32.552083333333336vw;
+    font-size: 0.9114583333333334vw;
+}
+
+.reply
+{
+    z-index: 500;
+    height: 2.4739583333333335vw;
+    content:url("../reply.png");
+    vertical-align: top;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0.9765625vw;
+    right: 0.01953125vw;
+    background-color: rgb(24, 24, 27);
+    border-radius: 5px;
+}
+
+.reply:hover
+{
+    visibility: visible;
+    animation: reply 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes reply
+{
+    100%{content:url("../reply\ hover.png");}
+}
+
+.message:hover > .reply
+{
+    visibility: visible;
+}
+
+.emoji
+{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.emoji:hover
+{
+    background: rgb(113, 112, 112);
+    border-radius: 5px;
+}
+
+.emoji-btn
+{
+    content:url("../emojis.png");
+    height: 2.9296875vw;
+    vertical-align: middle;
+    margin-left: 19.53125vw;
+    margin-top: 0.2604166666666667vw;
+}
+
+.emoji-btn:hover
+{
+    visibility: visible;
+    animation: emoji-btn 0.05s linear normal forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes emoji-btn
+{
+    100%{content:url("../emojis\ hover.png");}
+}
+
+.img-about
+{
+    width: 20.833333333333332vw;
+}
